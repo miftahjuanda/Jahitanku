@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55.0dip"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:id="@+id/nav_home"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_home"
+            android:tint="@color/colorWhite"
+            android:layout_width="@dimen/img_btm"
+            android:layout_height="@dimen/img_btm"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_home_black_24dp" />
+
+        <TextView
+            android:text="home"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="2.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:tint="@color/colorWhite"
+            android:id="@+id/nav_history"
+            android:layout_width="@dimen/img_btm"
+            android:layout_height="@dimen/img_btm"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_location" />
+
+        <TextView
+            android:text="nearby"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="3.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:tint="@color/colorWhite"
+            android:id="@+id/nav_help"
+            android:layout_width="@dimen/img_btm"
+            android:layout_height="@dimen/img_btm"
+            android:scaleType="fitCenter"
+            android:src="@drawable/chat" />
+
+        <TextView
+            android:text="chat"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_profile"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="3.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_Profile"
+            android:tint="@color/colorWhite"
+            android:layout_width="@dimen/img_btm"
+            android:layout_height="@dimen/img_btm"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_person_black_24dp" />
+
+        <TextView
+            android:text="akun"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
